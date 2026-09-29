@@ -1,0 +1,23 @@
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    background-color: purple;
+    padding: 100px;
+}
+.logo{
+    position: absolute;
+    height: 200px;
+    width: auto;
+}
+.menu a{
+    color: aliceblue;
+}
+.nav-links{
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+}
